@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #FFCC99;
+}
+h1 {
+	width: 1000px;
+	height: 285px;
+}
+.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.images {
+	position:relative;
+	top:20px;
+}
+ul.nav {
+	color: #CC0000;
+	list-style:none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;	
+	text-transform: lowercase;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+ul.nav li {
+	display: inline;
+	float:left;
+	padding: 0px 30px 20px 30px;
+}
+ul.nav a {
+	color: #993333;
+}
+ul.nav a.here {
+	color: #CC9933;
+}
+.navimage{
+	position:relative;
+	border: solid #666666 2px;
+	height: 300px;
+	width: 300px;
+}
+h2 {
+	position: absolute;
+	bottom: 0px;
+	color: #CC9933;
+	font-size: 2.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight: normal;
+}
+h2.left {
+	top: -15px;
+	right: 15px;
+}
+h2.center {
+	top: 55px;
+	left: 15px;
+}
+h2.right {
+	bottom: -15px;
+	left: 25px;
+}
+.navbox {
+	position: relative; 
+	width:300px;
+	height:300px;
+	float:left;
+	padding-top: 0px;
+	margin-right: 50px;
+}
+.navboxright {
+	position: relative; 
+	width:300px;
+	height:300px;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	text-decoration:none;
+	color:#666;
+}
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #333333;
+}
+.biopic {
+	position: relative;
+	width: 400px;
+	float: right;
+	border: solid #666666 2px;
+}
+.biotext {
+	position: relative;
+	width: 570px;
+	float: left;
+	line-height: 120%;
+}
+.resume {
+	
+	line-height: 130%;
+}
+.title {
+	position: relative;
+	float: right;
+	clear: both;
+}
+div.friends {
+	position: relative;
+	width: 200px;
+	float: left;
+}
+div.friends a{
+	line-height: 140%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .9em;
+
+}
+.footer {
+	font-size:.7em;
+	font-style: italic;
+	color: #993333;
+	float: left;
+	clear: both;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 600px;
+}

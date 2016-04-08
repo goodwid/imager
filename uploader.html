@@ -1,0 +1,33 @@
+<head>
+<title>Uploader for test database</title>
+</head>
+<body>
+Herein lies a form.
+
+<form enctype="multipart/form-data" action="add_image.php" method="POST">
+Title: <input type="text" name="title" size="30"/><br >
+<input type="hidden" name="artist_first" value="Andrea" /><input type="hidden" name="artist_last" value="Rosselle" />
+Show: <select name="show_title">
+<option value="The Irrational Season">The Irrational Season</option>
+<option value="Digging Through the Wall">Digging through the Wall</option>
+<option value="As Comfortable as I Can Be">As Comfortable as I Can Be</option>
+<option value="Hem Me In">Hem Me In</option>
+<option value="Medical Kitsch">Medical Kitsch</option>
+<option selected value="Other Work">Other Work</option> </select> <br />
+Year: <select name="year">
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option></select><br />
+Artwork dimensions: H: <input type="text" name="artwork_height" size="4">&nbsp;W:<input type="text" name="artwork_width" size="4">&nbsp;D:<input type="text" name="artwork_depth" size="4"><br />
+Choose an image file to upload: <input name="uploaded" type="file" /><br>
+
+
+<input type="submit" value="Submit and upload" />
+</form>
+</body>
+</html>
+ 

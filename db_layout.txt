@@ -1,0 +1,13 @@
+
+title varchar(40) 
+artist_first varchar(20) 
+artist_last varchar(20) 
+show_title varchar(40) 
+year INT(4) 
+artwork_height int(4) 
+artwork_width int(4) 
+artwork_depth int(4) 
+image_width int(4)  
+image_height int(4)  
+filename varchar(50) 
+ 
