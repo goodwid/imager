@@ -2,11 +2,11 @@
 $temp=$_GET["show"];
 
 switch ($temp) {
-case "The Irrational Season":
-case "Digging Through The Wall":
-case "As Comfortable as I Can Be":
-case "Hem Me In":
-case "Medical Kitsch":
+case "One":
+case "Two":
+case "Three":
+case "Four":
+case "Five":
 case "Other Works":
 	$display_show=$temp;
 	break;
@@ -29,7 +29,7 @@ default:
 <link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
 <![endif]-->
 
-<title>Andrea Rosselle | <? echo "$display_show\n";?></title>
+<title>Artist Name | <? echo "$display_show\n";?></title>
 <style type="text/css">
 @import url(style.css);
 #main {
@@ -135,8 +135,6 @@ while ($i < $num) {
 mysql_close();
 
 ?>
-<p class="footer">Contact me at andrea@andrearosselle.com<br />
-  All images property of Andrea Rosselle, copyright 2011</p>
 </div>
 
 </body>
